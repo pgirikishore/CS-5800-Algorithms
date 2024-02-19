@@ -19,5 +19,14 @@ public class Main {
     MergeSort merge = new MergeSort();
     merge.mergeSort(arr2, 0, arr2.length - 1);
     System.out.println("Array after sorting: " + Arrays.toString(arr2));
+
+
+    int[] arr3 = {8, 3, 2, 1, 9, 0};
+
+    System.out.println("Array before sorting: " + Arrays.toString(arr3));
+    // Sort the array using bubble sort
+    BubbleSort bubbleSort = new BubbleSort();
+    bubbleSort.bubbleSort(arr3);
+    System.out.println("Array after sorting: " + Arrays.toString(arr3));
   }
 }
