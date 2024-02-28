@@ -37,5 +37,14 @@ public class Main {
     QuickSort quickSort = new QuickSort();
       quickSort.quickSort(arr4, 0, arr4.length - 1);
     System.out.println("Array after Quick Sort: " + Arrays.toString(arr4));
+
+
+    int[] arr5 = {4, 3, 5, 1, 2, 5};
+
+    System.out.println("Array before sorting: " + Arrays.toString(arr5));
+    // Sort the array using counting sort
+      CountingSort countingSort = new CountingSort();
+      int[] outArr = countingSort.countingSort(arr5, 5);
+    System.out.println("Array after Counting Sort: " + Arrays.toString(outArr));
   }
 }
