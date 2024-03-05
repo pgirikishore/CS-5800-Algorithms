@@ -46,5 +46,13 @@ public class Main {
       CountingSort countingSort = new CountingSort();
       int[] outArr = countingSort.countingSort(arr5, 5);
     System.out.println("Array after Counting Sort: " + Arrays.toString(outArr));
+
+    int[] arr6 = {7, 4, 2, 9, 1, 3};
+
+    System.out.println("Array before sorting: " + Arrays.toString(arr6));
+    // Sort the array using heap sort
+      HeapSort heapSort = new HeapSort();
+        heapSort.heapSort(arr6);
+    System.out.println("Array after Heap Sort: " + Arrays.toString(arr6));
   }
 }
