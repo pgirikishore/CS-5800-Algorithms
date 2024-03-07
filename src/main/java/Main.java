@@ -54,5 +54,13 @@ public class Main {
       HeapSort heapSort = new HeapSort();
         heapSort.heapSort(arr6);
     System.out.println("Array after Heap Sort: " + Arrays.toString(arr6));
+
+  int[] arr7 = {7, 4, 2, 9, 1, 3};
+
+    System.out.println("Array before sorting: " + Arrays.toString(arr7));
+    // Sort the array using radix sort
+    RadixSort radixSort = new RadixSort();
+    radixSort.radixSort(arr7);
+    System.out.println("Array after Radix Sort: " + Arrays.toString(arr7));
   }
 }
