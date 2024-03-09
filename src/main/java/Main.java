@@ -62,5 +62,14 @@ public class Main {
     RadixSort radixSort = new RadixSort();
     radixSort.radixSort(arr7);
     System.out.println("Array after Radix Sort: " + Arrays.toString(arr7));
+
+
+    int[] arr8 = {5, 3, 1, 7, 4, 1, 2, 8, 6};
+
+    System.out.println("Array before sorting: " + Arrays.toString(arr8));
+    // Sort the array using bucket sort
+    BucketSort bucketSort = new BucketSort();
+      bucketSort.bucketSort(arr8);
+    System.out.println("Array after Bucket Sort: " + Arrays.toString(arr8));
   }
 }
